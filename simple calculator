@@ -1,0 +1,16 @@
+#....building a simple calculator............
+num1=float(input("enter first number: "))
+num2=float(input("enter second number:"))
+print("enter 1 for addition \n enter 2 for subtraction\n enter 3 for multiplication\n enter 4 for division")
+
+choice=int(input("inter your choice from 1-4: "))
+if choice==1:
+    print("sum is" ,num1+num2,)
+elif choice==2:
+    print("sub is" ,num1-num2)
+elif choice==3:
+    print("mul is " ,num1*num2)
+elif choice==4:
+    print("div is ",num1/num2)
+else:
+    print("invalid input")
